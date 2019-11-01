@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Insert title here</title>
+<link rel = "stylesheet" href = "css/bootstrap.min.css"><link>
+<link rel = "stylesheet" href = "css/style.css"></link>
+
+</head>
+<body>
+	<h2> Hola Mundo MVC</h2>
+	<form class = "form-group" action="UsuariosServlet" method="post">
+		<p>
+			<label for = "userID"> ID:</label>
+			<input class = "form-control" type = "text" id = "userID" name = "userID"></input>
+		</p>
+		<p>
+			<label for = "userName"> Name:</label>
+			<input class = "form-control" type = "text" id = "userName" name = "userName"></input>
+		</p>
+		<p>
+			<label for = "userAge"> Age: </label>
+			<input class = "form-control" type = "text" id = "userAge" name = "userAge"></input>
+		</p>
+		<p>
+			<input class = "btn btn-primary" type = "submit" id = "btnSave" value = "Save Changes"></input>
+		</p>
+	</form>	
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src ="js/script.js"></script>
+</body>
+</html>
